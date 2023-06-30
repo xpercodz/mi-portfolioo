@@ -57,3 +57,52 @@ header {
     color: #ff9800;
 }
 
+#home {
+    margin-bottom: 20px;
+}
+
+#home h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.arrow-list {
+    padding-top: 10px;
+    list-style-type: none;
+
+}
+
+.arrow-list li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.arrow-list li:before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    color: #555555;
+}
+#education{
+    padding-top: 20px;
+}
+.diploma{
+    padding-top: 10px;
+    list-style-type: none;
+}
+.diploma li {
+    position: relative;
+    padding-left: 20px;
+}
+.diploma li:before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    color: #555555;
+}
